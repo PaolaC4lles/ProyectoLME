@@ -1,0 +1,105 @@
+body{
+    background-image: url(../IMG/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.headerr{
+    background-color: #5064a6;
+    padding: 30px;
+    border-bottom: 200px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+ 
+}
+.h11{
+    color: black;
+    font-family: Algerian;
+    font-size: 40px;
+}
+.logoCont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.reseñas{
+    letter-spacing: 2px;
+    font-family: Algerian;
+    font-size: 50px;
+}
+.headerr a {
+    
+    color: black;
+    text-decoration: none;
+
+}
+.barra ul{
+    margin-right: 100px;
+    margin-top: 50px;
+    padding: 0;
+    list-style: none;
+}
+.barra ul li{
+    display: inline-block;
+}
+.barra ul li a{
+    background-color: #8ec5c4;
+    border-color: aqua;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    padding: 0.5rem 2rem;
+    transition: all 0.4s linear;
+    margin-bottom: -20px;
+    margin-right: 12px;
+}
+.barra ul li a:hover{
+    background-color: rgb(185, 104, 104);
+
+}
+.image{
+    position: static;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+.listapeli{
+  
+    padding: 0px;
+}
+div.contenedor1{
+    margin: 10px 20px;
+    box-shadow: 0 4px 8px rgb(54, 107, 124), 0 6px 20px 0 rgb(41, 29, 29);
+    float: left;
+    width: 250px;
+}
+div.contenedor1 img{
+    width: 100%;
+    height: auto;
+}
+div.contenedor1:hover{
+    border: 1px solid lightcoral;
+    transform: rotate(-3deg);
+}
+div.descrip{
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(108, 136, 155);
+    padding: 10px;
+}
+
+.fondo h1{
+    background-color: bisque;
+    font-size: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+    padding: 15px;
+
+    border-radius: 30px;
+}
+.fondo h2{
+    font-size: 30px;
+    margin-left: 20px;
+    color: rgb(241, 241, 241);
+}
