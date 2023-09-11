@@ -2,6 +2,7 @@ body{
     background-image: url(../IMG/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: 30px;
 }
 .headerr{
     background-color: #5064a6;
@@ -10,6 +11,10 @@ body{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 20px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: black;
+    width: 100%;
  
 }
 .h11{
@@ -70,7 +75,7 @@ body{
 }
 div.contenedor1{
     margin: 10px 20px;
-    box-shadow: 0 4px 8px rgb(54, 107, 124), 0 6px 20px 0 rgb(41, 29, 29);
+    box-shadow: 0 4px 8px rgb(3, 24, 31), 0 6px 20px 0 rgb(41, 29, 29);
     float: left;
     width: 250px;
 }
@@ -84,8 +89,9 @@ div.contenedor1:hover{
 }
 div.descrip{
     text-align: center;
-    text-shadow: 2px 2px 5px rgb(108, 136, 155);
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
     padding: 10px;
+    background-color: rgb(30, 66, 77);
 }
 
 .fondo h1{
@@ -95,11 +101,43 @@ div.descrip{
     margin-left: 50px;
     text-align: center;
     padding: 15px;
-
     border-radius: 30px;
+    width: 100%;
 }
 .fondo h2{
     font-size: 30px;
     margin-left: 20px;
     color: rgb(241, 241, 241);
+}
+.fondo1{
+    margin-top: 550px;
+}
+p{
+    color: white;
+}
+aside{
+    margin-left: 1100px;
+    margin-top: -2940px;
+    background-color: rgb(30, 66, 77);
+    height: 700px;
+    width: 300px;
+    padding: 10px;
+    border-style:ridge;
+    border-width: 10px;
+    border-color: black;
+}
+.genero{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+.cuadro{
+    color: #601c1c;
+    background-color: #8a717c;
+    padding: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    font-size: 25px;
+    border-style:inset;
+    border-color: #601c1c;
 }
